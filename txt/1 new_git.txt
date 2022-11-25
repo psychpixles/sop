@@ -1,0 +1,125 @@
+
+download link 
+https://git-scm.com/downloads
+
+
+Explanation of Codes - 
+https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049
+
+
+the tutorial from where i learned - 
+https://www.youtube.com/watch?v=USjZcfj8yxE
+
+https://www.youtube.com/watch?v=nhNq2kIvi9s
+
+https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049
+
+
+regarding merge conflict - 
+https://www.youtube.com/watch?v=xNVM5UxlFSA 
+
+
+
+---------------------------------------------------------------
+
+# 1st configure user and email  
+
+
+git config --global user.name "qsl"
+git config --global user.email "mhgndropshipping@gmail.com"
+
+
+# To see user name or email 
+
+git config user.name
+git config user.email
+git config --list
+
+
+
+# Create a new repository 
+
+git init
+git status
+
+
+# Staging: 
+ 		First we add files/change to staging then we commit. 
+
+git add index.html    
+git add index.html style.css   
+git add .      	
+
+
+# Commit: 
+		A commit is a snapshot of our code at a particular time
+
+
+git commit -m "Commit message"
+
+git log
+	(To see all the commits that were made for our project )
+
+git checkout <commit-hash>
+	(To go to particular commit.)
+
+
+git checkout master
+	(to go back to latest commit)
+
+
+
+# Branch: 
+
+git branch <new-branch-name>
+	(To create a new branch )
+
+git checkout <branch-name>
+	(To switch to a different branch)
+
+git checkout -b <new-branch-name>
+	(To create a new branch and change to it at the same time.)
+
+
+
+
+# Merge 
+	(We need to checkout on the branch we want to merge into.)
+
+
+git merge <branch_name>
+git merge --abort
+	(To abort merge in case of conflict. Conflict occurs when we both touch the same file on same line.)
+
+
+
+
+# To Set Up Git Hub 
+
+git remote add origin https://github.com/psychpixles/sop.git
+
+
+# to push for the first time 
+git push -u origin master
+
+This will ask you to login to github and authorize. 
+
+# to push every time 
+git push origin master
+
+
+
+# to pull from git repository 
+
+git pull origin master
+
+
+
+
+
+
+
+
+
+
+
