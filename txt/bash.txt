@@ -1,0 +1,29 @@
+ls 
+
+ls -a 
+
+(shows all files and folder even if its hidden.)
+
+
+ls -l 
+or 
+ll 
+(Shows long list)
+
+
+
+touch test.txt 
+touch text2.txt text3.txt 
+(creates new file)
+
+
+rm -r folder1
+(removes folder1 even if it has contents)
+
+pwd 
+cd 
+cd .. 
+
+mkdir 
+
+
