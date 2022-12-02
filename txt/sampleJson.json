@@ -1,0 +1,23 @@
+[
+	{
+		"name":"Big Corporation",
+		"numberOfEmployees": 100,
+		"CEO": "Mark Zakerbug",
+		"subsidiary": [
+			{"name":"mark1",
+			"profitable":true},
+
+			{"name":"mark2",
+			"profitable":false}]
+	},
+
+	{
+		"name": "Some Corporation",
+		"numberOfEmployees" : 200,
+		"CEO":"Some Zakerbug", 
+		"subsidiary":["One","Two","Three","Four"]
+	}
+
+]
+
+// https://www.youtube.com/watch?v=iiADhChRriM
